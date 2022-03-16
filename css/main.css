@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: local('Myriad Pro Regular'), local('Myriad-Pro-Regular'),
+        url('font/MyriadPro-Regular.woff2') format('woff2'),
+        url('font/MyriadPro-Regular.woff') format('woff'),
+        url('font/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nazakaz {
+    background: url("../img/bg-nazakaz.png") no-repeat center center / cover;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    padding-top: 150px;
+    padding-bottom: 95px;
+}
+.heading-nazakaz{
+    font-family: 'Lobster', cursive;
+    width: 390px;
+}
+.heading-nazakaz p:first-of-type{
+    width: 400px;
+}
+.heading-nazakaz h3{
+    font-size: 39px;
+    font-weight: 400;
+    color: #460a1c;
+}
+.text-nazakaz {
+    margin-top: 68px;
+    font-size: 22px;
+}
+.text-nazakaz__tel {
+    width: 400px;
+}
+.text-nazakaz a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+}
+#nazakaz .text-nazakaz ul{
+    padding-left: 0px;
+}
+#nazakaz .text-nazakaz ul li{
+    font-size: 16px;
+    list-style-type: none;
+    margin-right: 53px;
+    line-height: 19px;
+}
+#nazakaz .text-nazakaz ul li:nth-child(1){
+    width: 209px;
+}
+#nazakaz .text-nazakaz ul li:nth-child(2){
+    width: 216px;
+}
+#nazakaz .text-nazakaz ul li:nth-child(3){
+    width: 258px;
+    margin-right: 0;
+}
+#nazakaz .text-nazakaz ul li strong{
+    font-weight: 500px;
+}
+.container{
+    max-width: 1140px;
+}
+@media (max-width: 1199px){
+    #nazakaz {
+        background: url("../img/bg-mask.png") repeat-x center center / cover;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+        color: #000000;
+    }
+    .heading-nazakaz{
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    .text-nazakaz__tel{
+        width: auto;
+    }
+    #nazakaz .text-nazakaz ul{
+        justify-content: space-between;
+    }
+    #nazakaz .text-nazakaz ul li{
+        margin-right: 0px;
+    }
+}
